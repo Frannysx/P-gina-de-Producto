@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Moderna</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://cdn-icons-png.flaticon.com/512/732/732228.png"
+        alt="Logo moderno"
+      />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#caracteristicas">Características</a>
+        <a class="nav-link" href="#video-seccion">Video</a>
+        <a class="nav-link" href="#precios">Precios</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>Transforma tu día con nuestro producto</h1>
+        <p>Innovador, intuitivo y listo para ti.</p>
+      </section>
+
+      <section id="caracteristicas">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="caracteristicas-container">
+          <div class="item">
+            <h3>🚀 Rápido</h3>
+            <p>Nuestro producto está optimizado para un rendimiento excelente.</p>
+          </div>
+          <div class="item">
+            <h3>🛡️ Seguro</h3>
+            <p>Tu información está protegida con encriptación avanzada.</p>
+          </div>
+          <div class="item">
+            <h3>🎯 Intuitivo</h3>
+            <p>Una interfaz limpia, fácil de usar, sin complicaciones.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="video-seccion">
+        <h2>Mira cómo funciona</h2>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="precios">
+        <h2>Planes para todos</h2>
+        <div class="precio-container">
+          <div class="precio-item">
+            <h3>Básico</h3>
+            <p>$9.99 / mes</p>
+            <button>Elegir</button>
+          </div>
+          <div class="precio-item destacado">
+            <h3>Pro</h3>
+            <p>$19.99 / mes</p>
+            <button>Más popular</button>
+          </div>
+          <div class="precio-item">
+            <h3>Premium</h3>
+            <p>$29.99 / mes</p>
+            <button>Elegir</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="formulario">
+        <h2>Únete a nuestra comunidad</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Tu correo electrónico"
+            required
+          />
+          <input type="submit" id="submit" value="Suscribirme" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
